@@ -1,0 +1,48 @@
+
+cratejump.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+arrow
+  rotate: false
+  xy: 1, 63
+  size: 400, 433
+  orig: 400, 433
+  offset: 0, 0
+  index: -1
+darker_background
+  rotate: false
+  xy: 403, 363
+  size: 75, 133
+  orig: 75, 133
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 1, 1
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+stamp_approved
+  rotate: false
+  xy: 403, 265
+  size: 100, 96
+  orig: 100, 96
+  offset: 0, 0
+  index: -1
+tile
+  rotate: false
+  xy: 403, 203
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+tile_minus
+  rotate: false
+  xy: 63, 1
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1

@@ -3,4 +3,21 @@
 
     <string name="app_name">Consistency</string>
 
+    <string name="ad_unit_id_interstitial_1">ca-app-pub-6925635541075684/1120227068</string>
+
+    <string name="test_device_1">71F2ADE1499BD3CAB6CE449AE84E87C9</string>
+    <string name="test_device_2">CF95DC53F383F9A836FD749F3EF439CD</string>
+    <string name="test_device_3">09938CD2A4F21215C19775496B22DEA6</string>
+    <string name="test_device_4">57DF3E626588CA94A3BEBA67BFD08299</string>
+    <string name="test_device_5">E6EDDD8E0FB0285C5F2A9F484F0CEF96</string>
+    <string name="test_device_6">5A9D278F6996C04F434D0B973D2D99F9</string>
+    <string name="test_device_7">883F99058D38212427B8215A3E52FA39</string>
+    <string name="test_device_8">9D8DE32A1FB1227C626F3ECEC51D92F5</string>
+    <string name="test_device_9">2C8CD38C7D9A92F011ACA8E3AC27FA88</string>
+    <string name="test_device_10">F09FB8E759C9E8BF2433F03722E40078</string>
+    <string name="test_device_11">7C34D05E9C7CBC68DF51E69BC06F1F7E</string>
+    <string name="test_device_12">69A505B6FA410B6ACF6E6D38E69C8AA1</string>
+
+    <string name="drollgames_website">http://drollgames.com</string>
+
 </resources>

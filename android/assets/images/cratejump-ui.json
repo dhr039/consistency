@@ -1,0 +1,40 @@
+{
+
+com.badlogic.gdx.graphics.Color: {
+	green: { a: 1, r: 0, g: 1, b: 0 },
+	white: { a: 1, r: 1, g: 1, b: 1 },
+	red: { a: 1, r: 1, g: 0, b: 0 },
+	black: { a: 1, r: 0, g: 0, b: 0 },
+    fc5185: { a: 1, r: 0.988, g: 0.318, b: 0.522 },
+    f5f5f5: { a: 1, r: 0.961, g: 0.961, b: 0.961 }
+},
+
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	default-font: { file: gotham_rounded_bold.fnt },
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: { font: default-font, fontColor: f5f5f5 }
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	btn_sound: { down: btn_sound_on, up: btn_sound_on , checked: btn_sound_off},
+	btn_back: { down: btn_left_down, up: btn_left_up , checked: btn_left_up},
+	btn_next_level: { down: btn_right_down, up: btn_right_up , checked: btn_right_up},
+	btn_reload_levels: { down: reload_levels_down, up: reload_levels_up , checked: reload_levels_up},
+	btn_close: {down: close_down, up: close_up},
+	default: {}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {font: default-font, fontColor: white}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Image: {
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+}
+
+
+}

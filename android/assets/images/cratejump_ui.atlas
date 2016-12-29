@@ -1,0 +1,76 @@
+
+cratejump_ui.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btn_left_down
+  rotate: false
+  xy: 457, 97
+  size: 86, 150
+  orig: 86, 150
+  offset: 0, 0
+  index: -1
+btn_left_up
+  rotate: false
+  xy: 545, 97
+  size: 86, 150
+  orig: 86, 150
+  offset: 0, 0
+  index: -1
+btn_right_down
+  rotate: false
+  xy: 633, 97
+  size: 86, 150
+  orig: 86, 150
+  offset: 0, 0
+  index: -1
+btn_right_up
+  rotate: false
+  xy: 721, 97
+  size: 86, 150
+  orig: 86, 150
+  offset: 0, 0
+  index: -1
+btn_sound_off
+  rotate: false
+  xy: 1, 93
+  size: 150, 154
+  orig: 150, 154
+  offset: 0, 0
+  index: -1
+btn_sound_on
+  rotate: false
+  xy: 153, 93
+  size: 150, 154
+  orig: 150, 154
+  offset: 0, 0
+  index: -1
+close_down
+  rotate: false
+  xy: 1, 1
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+close_up
+  rotate: false
+  xy: 925, 157
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+reload_levels_down
+  rotate: false
+  xy: 809, 131
+  size: 114, 116
+  orig: 114, 116
+  offset: 0, 0
+  index: -1
+reload_levels_up
+  rotate: false
+  xy: 305, 93
+  size: 150, 154
+  orig: 150, 154
+  offset: 0, 0
+  index: -1
