@@ -299,13 +299,13 @@ public class WorldController implements GestureDetector.GestureListener {
 
         if (isLevelComplete()) {
 
-            if(currLevelIndex > 15 ) {
+            if(currLevelIndex > 9 ) {
 
-                if((currLevelIndex) % 10 == 0) {
+                if((currLevelIndex) % 5 == 0) {
                     CJMain.adsRequestHandler.loadIntersitial();
                 }
 
-                if((currLevelIndex+1) % 10 == 0) {
+                if((currLevelIndex+1) % 5 == 0) {
                     CJMain.adsRequestHandler.showIntersitial();
                 }
             }
