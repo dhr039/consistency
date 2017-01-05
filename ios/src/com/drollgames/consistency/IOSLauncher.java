@@ -42,6 +42,7 @@ public class IOSLauncher extends IOSApplication.Delegate implements IActivityReq
         pool.close();
     }
 
+    @Override
     public void loadIntersitial() {
 //        Foundation.log(TAG + "loadIntersitial");
         viewController  = UIApplication.getSharedApplication().getKeyWindow().getRootViewController();

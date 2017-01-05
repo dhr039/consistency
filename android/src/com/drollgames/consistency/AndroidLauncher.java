@@ -100,4 +100,9 @@ public class AndroidLauncher extends AndroidApplication implements IActivityRequ
         }
     }
 
+    @Override
+    public void loadIntersitial() {
+        /* TODO: implement */
+    }
+
 }

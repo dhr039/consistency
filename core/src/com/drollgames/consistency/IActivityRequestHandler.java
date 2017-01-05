@@ -4,4 +4,6 @@ public interface IActivityRequestHandler {
 
     public void showIntersitial();
 
+    public void loadIntersitial();
+
 }

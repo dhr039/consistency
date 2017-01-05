@@ -300,6 +300,11 @@ public class WorldController implements GestureDetector.GestureListener {
         if (isLevelComplete()) {
 
             if(currLevelIndex > 15 ) {
+
+                if((currLevelIndex) % 10 == 0) {
+                    CJMain.adsRequestHandler.loadIntersitial();
+                }
+
                 if((currLevelIndex+1) % 10 == 0) {
                     CJMain.adsRequestHandler.showIntersitial();
                 }

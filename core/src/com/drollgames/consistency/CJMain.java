@@ -22,6 +22,11 @@ public class CJMain extends DirectedGame {
 					Gdx.app.log("CJMain", "handler was null, showIntersitial() will do nothing");
 				}
 
+				@Override
+				public void loadIntersitial() {
+					Gdx.app.log("CJMain", "handler was null, loadIntersitial() will do nothing");
+				}
+
 			};
 		} else {
 			adsRequestHandler = handler;
