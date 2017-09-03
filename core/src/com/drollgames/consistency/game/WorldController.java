@@ -299,16 +299,16 @@ public class WorldController implements GestureDetector.GestureListener {
 
         if (isLevelComplete()) {
 
-            if(currLevelIndex > 9 ) {
-
-                if((currLevelIndex) % 5 == 0) {
-                    CJMain.adsRequestHandler.loadIntersitial();
-                }
-
-                if((currLevelIndex+1) % 5 == 0) {
-                    CJMain.adsRequestHandler.showIntersitial();
-                }
-            }
+//            if(currLevelIndex > 9 ) {
+//
+//                if((currLevelIndex) % 5 == 0) {
+//                    CJMain.adsRequestHandler.loadIntersitial();
+//                }
+//
+//                if((currLevelIndex+1) % 5 == 0) {
+//                    CJMain.adsRequestHandler.showIntersitial();
+//                }
+//            }
 
             gameState = GameState.START_CHANGING_LEVEL;
         }

@@ -15,11 +15,11 @@ import java.util.Arrays;
 
 public class IOSLauncher extends IOSApplication.Delegate implements IActivityRequestHandler {
 
-    private static final String ADMOB_INTERSTITIAL_ID = "ca-app-pub-6925635541075684/6327090666";
+//    private static final String ADMOB_INTERSTITIAL_ID = "ca-app-pub-6925635541075684/6327090666";
 
     private static final String TAG = "DHRlogs ";
-    UIViewController viewController;
-    GADInterstitial adInterstitial;
+//    UIViewController viewController;
+//    GADInterstitial adInterstitial;
 
     @Override
     protected IOSApplication createApplication() {
@@ -44,34 +44,35 @@ public class IOSLauncher extends IOSApplication.Delegate implements IActivityReq
 
     @Override
     public void loadIntersitial() {
-//        Foundation.log(TAG + "loadIntersitial");
-        viewController  = UIApplication.getSharedApplication().getKeyWindow().getRootViewController();
-        String interstitialId = ADMOB_INTERSTITIAL_ID;
-        adInterstitial = new GADInterstitial(interstitialId);
+        Foundation.log(TAG + "loadIntersitial");
 
-        GADRequest request = new GADRequest();
-        // Display test ads on the simulator.
-        request.setTestDevices(Arrays.asList(GADRequest.getSimulatorID()));
-
-        adInterstitial.loadRequest(request);
+//        viewController  = UIApplication.getSharedApplication().getKeyWindow().getRootViewController();
+//        String interstitialId = ADMOB_INTERSTITIAL_ID;
+//        adInterstitial = new GADInterstitial(interstitialId);
+//
+//        GADRequest request = new GADRequest();
+//        // Display test ads on the simulator.
+//        request.setTestDevices(Arrays.asList(GADRequest.getSimulatorID()));
+//
+//        adInterstitial.loadRequest(request);
     }
 
     @Override
     public void showIntersitial() {
         Foundation.log(TAG + "showIntersitial");
-        if(adInterstitial == null) {
-            loadIntersitial();
-            return;
-        }
-        if (adInterstitial.isReady()) {
-            if(viewController == null) {
-                loadIntersitial();
-                return;
-            }
-            adInterstitial.present(viewController);
-            loadIntersitial();
-        } else {
-            this.loadIntersitial();
-        }
+//        if(adInterstitial == null) {
+//            loadIntersitial();
+//            return;
+//        }
+//        if (adInterstitial.isReady()) {
+//            if(viewController == null) {
+//                loadIntersitial();
+//                return;
+//            }
+//            adInterstitial.present(viewController);
+//            loadIntersitial();
+//        } else {
+//            this.loadIntersitial();
+//        }
     }
 }
