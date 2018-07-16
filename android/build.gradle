@@ -18,6 +18,9 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
+        /* Google Play ID */
+//        applicationId "com.nazaga.consistency.android"
+        /* Amazon appstore ID */
         applicationId "com.drollgames.consistency"
         minSdkVersion 9
         targetSdkVersion 25
